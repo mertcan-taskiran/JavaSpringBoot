@@ -8,20 +8,20 @@ import java.util.logging.Logger;
 @Controller
 public class PostConstructTutorials {
 
-    @Autowired
-    Logger LOG;
+    //@Autowired
+    //Logger LOG;
 
     //public PostConstructTutorials() {
     //    LOG.info("Log info çağrıldı.");
     //}
 
-    @PostConstruct
-    public void init(){
-        LOG.info("Log info çağrıldı.");
-    }
+    //@PostConstruct
+    //public void init(){
+    //    LOG.info("Log info çağrıldı.");
+    //}
 
-    public static void main(String[] args) {
-        PostConstructTutorials postConstructTutorials = new PostConstructTutorials();
-        System.out.println(postConstructTutorials);
-    }
+    //public static void main(String[] args) {
+     //   PostConstructTutorials postConstructTutorials = new PostConstructTutorials();
+     //   System.out.println(postConstructTutorials);
+    //}
 }
